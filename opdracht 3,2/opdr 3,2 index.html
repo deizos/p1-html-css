@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <form>
+        <center>
+        <div>
+            <form>
+                <label for="noNumbersInput">Voornaam</label>
+                <input type="text" id="noNumbersInput" name="noNumbersInput" pattern="[^0-9]*" title="Please enter text without numbers." required>
+            </form>      
+        </div>
+        <div>
+            <label>chternaam</label>
+            <input type="text" id="noNumbersInput" name="noNumbersInput" pattern="[^0-9]*" title="Please enter text without numbers." required>
+        </div>
+        geslacht
+        <div>
+            <label for="geslacht">kies uw geslacht:</label>
+            <select id="gender" name="gender">
+                <option value="Man" selected>Man</option>
+                <option value="Vrouw">Vrouw</option>
+            </select>
+        </div>
+        <div>
+            <label>straat met huisnummer</label>
+            <input>
+        </div>
+        <div>
+            <label>postcode</label>
+            <input>
+        </div>
+        <div>
+            <label>stad</label>
+            <input>
+        </div>
+        <div>
+            <label>land</label>
+            <input>
+        </div>
+        <div>
+            <form>
+                <label for="max9NumbersInput">Bsn nummer</label>
+                <input type="tel" id="max9NumbersInput" name="max9NumbersInput" pattern="[0-9]{1,9}" maxlength="9" inputmode="numeric">
+            </form>
+        </div>
+        <div>
+            <label for="vakantie land selecteren">Vakantie land selecteren</label>
+            <select name="vakantie land selecteren" id="vakantie land selecteren">
+                <option value="turkije">Turkije</option>
+                <option value="UAE">UAE</option>
+                <option value="morocco">Morocco</option>
+                <option value="frankrijk">Frankrijk</option>
+            </select>
+        </div>
+        <div>
+            <label for="dateInput">Select a date:</label>
+            <input type="date" id="dateInput" name="dateInput" min="2023-09-17">
+        </div>
+        <div>
+            <label>datum van terugkomst</label>
+            <input type="date" id="dateInput" name="dateInput" min="2023-09-18">
+        </div>
+        <div>
+            <label for="numberInput">aantal reisgenoten</label>
+            <select name="numberselection" id="numberselection">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div>
+            <label>email</label>
+            <input type="email">
+        </div>
+        <div>
+            <label>wachtwoord</label>
+            <input type="password">
+        </div>
+        <br>
+        <input type="submit" value="verzoek nu" name="verzoek nu">
+        </center>
+    </form>
+</body>
+</html>
