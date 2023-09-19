@@ -1,0 +1,31 @@
+h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+    font-style: oblique;
+    color: blue
+}
+
+h2 {
+    font-size: 20px;
+     font-weight: bold;
+     color:#0000ff;
+    }
+
+h3 {
+    font-size: 16px;
+     font-weight: bold;
+      color: teal;
+    }
+
+section p {
+    font-weight: bold;
+     color:  #4D4D4D;
+    }
+
+a {
+    color: #8A2BE2;
+}
+
+a:link {
+    text-decoration: none;
+}
