@@ -1,9 +1,10 @@
-h1 {
-    font-size: 24px; 
+header {font-size: 100vw;
     font-weight: bold; 
     font-style: oblique;
-    color: blue
+    color: white;
+    font-size: 11vh;
 }
+
 
 h2 {
     font-size: 20px;
@@ -17,9 +18,9 @@ h3 {
       color: teal;
     }
 
-section p {
+p {
     font-weight: bold;
-     color:  #4D4D4D;
+     color: white;
     }
 
 a {
@@ -29,3 +30,18 @@ a {
 a:link {
     text-decoration: none;
 }
+
+body {
+    background-image: url('turtle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;}
+
+    section article p{color: white;}
+
+    section article {border-style: solid; border-width: 10px; border-color: white; border-left-width: 20px; border-radius: 10px;}
+
+        
+
