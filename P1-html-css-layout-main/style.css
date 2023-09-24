@@ -10,6 +10,19 @@ body {
   font-family: "Goldman", cursive;
 }
 
+body.bruh
+{
+  background-image: url(./img/background.jpeg);
+background-size: cover;
+}
+
+body.haha
+{background-color: black;
+  font-family: "Goldman", cursive;}
+
+p.bro {color:white}
+
+
 nav {
   display: flex;
   width: 100%;
@@ -26,6 +39,7 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
@@ -38,6 +52,20 @@ nav img {
   width: 5vw;
 }
 
-h1{font-size: 50px;}
+h1{font-size: 50px;
+font-weight: bold;}
 
-p{font-size: 15px;}
+p{font-size: 15px;
+font-family: 'goldman' cursive;}
+
+h1.index {color: white;}
+
+header.L {color: white;}
+
+footer.L {color: #00a8c7;
+font-size: 15px;}
+
+footer{color: #00a8c7;
+font-size: 15px;}
+
+
