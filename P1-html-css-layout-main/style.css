@@ -1,29 +1,37 @@
-* {
+* 
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
+
+html 
+{
   font-size: 62.5%;
 }
-body {
+
+body 
+{
   font-family: "Goldman", cursive;
 }
 
 body.bruh
 {
   background-image: url(./img/background.jpeg);
-background-size: cover;
+
+  background-size: cover;
 }
 
 body.haha
-{background-color: black;
-  font-family: "Goldman", cursive;}
+{
+  background-color: black;
 
-p.bro {color:white}
+  font-family: "Goldman", cursive;
+}
 
 
-nav {
+nav
+ {
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -34,38 +42,182 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
 }
-nav ul {
+
+nav ul
+{
   display: flex;
   align-items: center;
   list-style-type: none;
+  text-align: center;
 }
 
-nav li {
+nav li 
+
+{
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
-nav a {
+
+
+nav a 
+{
   color: white;
   text-decoration: none;
 }
-nav img {
+
+nav img 
+{
   width: 5vw;
 }
 
-h1{font-size: 50px;
-font-weight: bold;}
+h1
+{
+  font-size: 50px;
+
+  font-weight: bold;
+}
 
 p{font-size: 15px;
 font-family: 'goldman' cursive;}
 
-h1.index {color: white;}
+h1.index
+ {
+  color: white;
+}
 
-header.L {color: white;}
 
-footer.L {color: #00a8c7;
-font-size: 15px;}
+header.L 
+{
+  color: yellow;
+}
 
-footer{color: #00a8c7;
-font-size: 15px;}
+
+footer.L 
+{
+  color: white;
+
+  font-size: 15px;
+}
+
+  footer 
+  {
+    position: fixed;
+  
+    bottom: 0;
+  
+    left: 0;
+  
+    width: 100%;
+  
+    background-color: #00a8c7;
+  
+    color: white;
+  
+    padding: 10px;
+  
+    text-align: left;
+  
+    margin: 0;
+  
+    text-align: center;
+  
+    }
+
+.html
+    {
+      float: left;
+
+      margin-right: 10%;
+
+      margin-left: 15%;
+
+      height: 0,3vh;
+
+      width: 0,3vw;
+
+      margin-top: 4%;
+    }
+
+.htmmlpara
+{
+  margin-top: 10%;
+
+  margin-left: 25%;
+}
+
+.js
+
+{
+color: white;
+
+margin-top: 10%;
+
+margin-left: 25%;
+
+}
+
+.java
+{
+  float: left;
+
+  margin-right: 10%;
+
+  margin-left: 13%;
+
+  height: 0,3vh;
+
+  width: 0,3vw;
+
+  margin-top: 4%;
+}
+
+.phpp
+
+{
+  margin-top: 10%;
+
+  margin-left: 25%;
+}
+
+.php
+{
+  float: left;
+
+  margin-right: 10%;
+
+  margin-left: 13%;
+
+  height: 0,3vh;
+
+  width: 0,3vw;
+
+  margin-top: 4%;
+
+
+}
+
+.sqll
+
+{
+  float: left;
+
+  margin-right: 10%;
+
+  margin-left: 13%;
+
+  height: 0,3vh;
+
+  width: 0,4vw;
+
+  margin-top: 4%;
+}
+
+.sql
+
+{
+  margin-top: 10%;
+
+  margin-left: 25%;
+}
 
 
