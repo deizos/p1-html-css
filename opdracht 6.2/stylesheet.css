@@ -1,0 +1,35 @@
+.blue-square
+{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.black-square
+{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.red-square
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.green-square
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.squares
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
