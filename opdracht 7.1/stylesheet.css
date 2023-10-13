@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    background-color: rgb(98, 67, 218);
+    padding: 3rem;
+    color: white;
+    justify-content: space-between;
+    
+}
+.square {
+    align-items: flex-end;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    width: 100%;
+    padding: 5rem;
+    background-color: rgb(104, 98, 178);
+    color: white;
+}
+.section2 {
+    width: 100%;
+    padding: 5rem;
+    background-color: fuchsia;
+    color: white;
+}
+.section3 {
+    width: 100%;
+    padding: 5rem;
+    background-color: rgb(35, 109, 220);
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+
+    nav{
+        display: flex;
+        background-color: gold;
+        justify-content: center;
+    }
+
+    .square{
+        display: none;
+    }
+    .section1 {
+      background-color: salmon;
+    }
+    .section2{
+        background-color: khaki;
+    }
+    .section3{
+        background-color: lightcyan;
+        color: black;
+    }
+  }
+@media only screen and (min-width: 992px) {
+
+    nav{
+        display: flex;
+        background-color: red;
+        justify-content: flex-start;
+    }
+
+    .square{
+        display: none;
+    }
+    .section1 {
+      background-color: greenyellow;
+      color: plum
+    }
+    .section2{
+        background-color: black;
+        color: purple
+    }
+    .section3{
+        background-color: yellow;
+        color: black
+    }
+  }
